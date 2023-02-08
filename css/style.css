@@ -4,13 +4,14 @@ body {
     width: 100%;
     margin: 0;
     padding: 0;
+    background-color: #4158D0;
+    background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
 }
 header {
     width: 100%;
     margin: 0;
     padding: 10px;
 }
-
 #menu {
     display: flex;
     width: 100%;
@@ -19,28 +20,23 @@ header {
     margin: 0;
     padding: 0;
 }
-
 #menu li {
     margin: 10px 20px;
     font-weight: bold;
     font-family: sans-serif;
     font-size: 14px;
 }
-
 #menu a {
     color: black;
     text-decoration: none;
 }
-
 #menu a:hover{
     color: rgb(64, 29, 219);
 }
-
 #top h1, #top h2, #top p{
     text-align: center;
     margin: 0;
 }
-
 main {
     background-color: white;
     width: 900px;
@@ -51,22 +47,18 @@ main {
 section {
     margin-bottom: 20px;
 }
-
 section h1{
     font-size: 18px;
     border-left: 15px navy solid;
     border-bottom: 1px firebrick solid;
     padding-left: 10px;
 }
-
 section p{
     margin-left: 20px;
 }
-
 .items ul{
     list-style-type: none;
 }
-
 .items li{
     display: inline-block;
     border: 1px gray solid;
@@ -77,8 +69,10 @@ section p{
     font-weight: bold;
     text-align: center;
 }
-
-footer{
+.hobbyitems {
+    font-family: 'Klee One', cursive;
+}
+footer {
     width: 100%;
     text-align: center;
     font-style: italic;
